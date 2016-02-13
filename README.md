@@ -1,4 +1,4 @@
-TDMiner C++: Frequent episode mining with inter-event gap constraints. 
+#TDMiner C++: Frequent episode mining with inter-event gap constraints. 
 
 ```
 Usage: tdminer [ht:i:m:sxcdz:o:f:] eventsfile outcomefile [min_supp]
