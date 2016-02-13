@@ -1,5 +1,6 @@
 TDMiner C++: Frequent episode mining with inter-event gap constraints. 
 
+```
 Usage: tdminer [ht:i:m:sxcdz:o:f:] eventsfile outcomefile [min_supp]
 
  eventsfile	    file, that contains the event stream
@@ -34,7 +35,7 @@ Counting example:
 $ tdminer -o eps.txt -f occurrences.txt sample_stream.csv episodes-out.txt
 "eps.txt" contains the episodes to count. Note currently only episode of 
 the same size are supported.
+```
 
 Dependencies: PThreads library
 
-Debprakash Patnaik (debprakash@gmail.com)
