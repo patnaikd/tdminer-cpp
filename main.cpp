@@ -3,6 +3,7 @@
 #include <math.h>
 #include <pthread.h>
 #include <string>
+#include <cstring>
 #include <map>
 #include <list>
 

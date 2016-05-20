@@ -1,6 +1,6 @@
 CC=g++
-CFLAGS=-Wall -O3
-LDFLAGS=-lpthread
+CFLAGS=-Wall -O3 -Wno-sign-compare
+LDFLAGS=-lpthread -lm
 SOURCES=main.cpp kernel.cpp occurrences.cpp
 HEADERS=kernel.h global.h types.h occurrences.h
 OBJECTS=$(SOURCES:.cpp=.o)
